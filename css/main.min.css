@@ -266,7 +266,16 @@
     font-size: 1.5rem;
     cursor: pointer;
   }
-  
+  /* Hide scrollbar for all elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+}
+
 /* Hero Section */
 .hero {
   position: relative;
